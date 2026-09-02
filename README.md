@@ -1,8 +1,9 @@
-# Negroni Porject
+# Negroni Project
 
-Negroni Porject is a compact, source-available case study in governed AI-agent orchestration. It preserves a focused, reusable part of the Evolith/Hermes engineering work: deterministic research queues, bounded autonomy, fail-closed safety checks, owner approval gates, append-only audit records, and dry-run execution.
+Negroni Project is a compact, open-source case study and reusable Codex skill for governed AI-agent orchestration. It preserves a focused, public-safe part of the Evolith/Hermes engineering work: deterministic research queues, bounded autonomy, fail-closed safety checks, owner approval gates, append-only audit records, and dry-run execution.
 
-The unusual spelling of **Porject** is intentional and follows the project owner's chosen name.
+[![Tests](https://github.com/sam999-code/Negroni-Project/actions/workflows/tests.yml/badge.svg)](https://github.com/sam999-code/Negroni-Project/actions/workflows/tests.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 ## What this repository demonstrates
 
@@ -30,7 +31,24 @@ integrations/hermes_research_orchestrator/
 integrations/intraday_research/         minimal shared contracts and path policy
 tests/hermes_research_orchestrator/      safety, firewall, and runner tests
 docs/                                   architecture and project retrospective
+skills/negroni-governed-agents/         reusable Codex governance skill
 ```
+
+## Use it as a Codex skill
+
+The skill has no runtime dependency on this Python package. Copy the directory
+`skills/negroni-governed-agents` into your Codex skills directory:
+
+- macOS/Linux: `~/.codex/skills/negroni-governed-agents`
+- Windows: `%USERPROFILE%\.codex\skills\negroni-governed-agents`
+
+Restart Codex, then invoke it explicitly:
+
+```text
+Use $negroni-governed-agents to audit this agent workflow and return an evidence-backed readiness verdict.
+```
+
+The skill helps design or review local assistants, MCP integrations, research pipelines, and automations that need explicit authority, owner approvals, safe roots, dry-run defaults, and stop conditions.
 
 ## Requirements
 
@@ -57,4 +75,4 @@ This is a preserved and sanitized portfolio edition of discontinued experimental
 
 ## License
 
-No reuse license has been granted yet. The code is publicly viewable for portfolio and evaluation purposes. A formal license can be added later by the owner.
+Released under the [MIT License](LICENSE).

@@ -2,7 +2,7 @@
 
 ## What was achieved
 
-The original Evolith/Hermes work produced a broad experimental AI operating-system architecture. Negroni Porject preserves one of its clearest engineering outcomes: a governed autonomous-research subsystem that can prepare and inspect work while remaining structurally unable to execute external actions.
+The original Evolith/Hermes work produced a broad experimental AI operating-system architecture. Negroni Project preserves one of its clearest engineering outcomes: a governed autonomous-research subsystem that can prepare and inspect work while remaining structurally unable to execute external actions.
 
 The preserved implementation includes deterministic policies, explicit autonomy levels, owner gates, safe path handling, append-only records, process-lock discipline, dry-run orchestration, and extensive negative safety tests.
 

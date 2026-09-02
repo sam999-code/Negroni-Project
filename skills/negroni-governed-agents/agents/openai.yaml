@@ -1,0 +1,5 @@
+interface:
+  display_name: "Negroni Governed Agents"
+  short_description: "Design and audit bounded AI-agent workflows"
+  brand_color: "#5B2333"
+  default_prompt: "Use $negroni-governed-agents to design or audit this AI-agent workflow with explicit authority, owner gates, dry-run defaults, stop conditions, and an evidence-backed verdict."

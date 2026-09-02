@@ -2,7 +2,7 @@
 
 ## Scope
 
-Negroni Porject is deliberately isolated from external execution systems. The published package must remain unable to reach broker APIs, trading terminals, order functions, private market-data stores, native gateways, or messaging endpoints.
+Negroni Project is deliberately isolated from external execution systems. The published package must remain unable to reach broker APIs, trading terminals, order functions, private market-data stores, native gateways, or messaging endpoints.
 
 ## Required invariants
 
