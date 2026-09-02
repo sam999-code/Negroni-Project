@@ -1,6 +1,6 @@
 # Negroni Project
 
-Negroni Project is a compact, open-source case study and portable Agent Skill for governed AI-agent orchestration. It works natively with Claude Code, Hermes Agent, and OpenAI Codex, with a universal prompt fallback for ChatGPT, Gemini, Llama, Mistral, DeepSeek, Qwen, Ollama-based models, and other LLM systems.
+Negroni Project is a compact, open-source case study and portable skill for governed AI-agent orchestration across LLM systems. It works natively with Claude Code, Hermes Agent, and OpenAI Codex, with a universal prompt fallback for ChatGPT, Gemini, Llama, Mistral, DeepSeek, Qwen, Ollama-based models, and other LLM hosts.
 
 It preserves a focused, public-safe part of the Evolith/Hermes engineering work: deterministic research queues, bounded autonomy, fail-closed safety checks, owner approval gates, append-only audit records, and dry-run execution.
 
