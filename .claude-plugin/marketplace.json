@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "negroni-project",
+  "version": "0.2.0",
+  "description": "Portable governance skills for bounded AI-agent workflows.",
+  "owner": {
+    "name": "Negroni Project contributors"
+  },
+  "plugins": [
+    {
+      "name": "negroni-project",
+      "source": "./",
+      "description": "Design and audit bounded AI-agent workflows.",
+      "version": "0.2.0",
+      "author": {
+        "name": "Negroni Project contributors"
+      },
+      "category": "development",
+      "tags": [
+        "governance",
+        "safety",
+        "agents"
+      ]
+    }
+  ]
+}
+

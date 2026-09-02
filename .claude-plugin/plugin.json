@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "negroni-project",
+  "displayName": "Negroni Governed Agents",
+  "version": "0.2.0",
+  "description": "Design and audit bounded AI-agent workflows with explicit authority and fail-closed controls.",
+  "author": {
+    "name": "Negroni Project contributors"
+  },
+  "homepage": "https://github.com/sam999-code/Negroni-Project",
+  "repository": "https://github.com/sam999-code/Negroni-Project",
+  "license": "MIT",
+  "keywords": [
+    "agent-governance",
+    "ai-safety",
+    "authority-gates",
+    "code-review",
+    "mcp"
+  ]
+}
+
