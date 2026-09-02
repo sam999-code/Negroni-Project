@@ -1,6 +1,6 @@
 # Negroni Project
 
-Negroni Project is a compact, open-source case study and reusable Codex skill for governed AI-agent orchestration. It preserves a focused, public-safe part of the Evolith/Hermes engineering work: deterministic research queues, bounded autonomy, fail-closed safety checks, owner approval gates, append-only audit records, and dry-run execution.
+Negroni Project is a compact, open-source case study and reusable LLMs skill for governed AI-agent orchestration. It preserves a focused, public-safe part of the Evolith/Hermes engineering work: deterministic research queues, bounded autonomy, fail-closed safety checks, owner approval gates, append-only audit records, and dry-run execution.
 
 [![Tests](https://github.com/sam999-code/Negroni-Project/actions/workflows/tests.yml/badge.svg)](https://github.com/sam999-code/Negroni-Project/actions/workflows/tests.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
